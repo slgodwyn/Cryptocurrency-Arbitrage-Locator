@@ -31,7 +31,7 @@ import org.json.JSONObject;
 public class CurrencyGeneralData {
 	
 	private String uri = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest";		//API endpoint returning a list of all active cryptocurrencies with latest market data
-	private static String apiKey = "c9ac963a-d985-4516-94c4-b62815021b7b";		//apiKey
+	private static String apiKey = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx";		//apiKey
 	private List<NameValuePair> parameters = new ArrayList<>();		//every parameter we need to add to the endpoint will be stored in this list
 	private List<String> coinResults;
 	private int start, end;
